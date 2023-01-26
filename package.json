@@ -1,17 +1,27 @@
 {
   "name": "path-app",
   "version": "0.1.0",
+  "homepage": "https://Lucas-Song-Dev.github.io/Shortest-Path",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^4.0.0-alpha.6",
+    "create-react-app": "^5.0.1",
+    "keyframes": "^2.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.6",
+    "tar": "^6.1.12",
+    "typeface-roboto": "^1.1.13",
+    "web-vitals": "^2.1.4",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
